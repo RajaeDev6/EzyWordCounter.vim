@@ -43,7 +43,7 @@ function! s:ShowFloatingWindow(word_count) abort
   if !exists('g:word_count_floating_window') && has('float')
     let l:float_win_id = popup_create([a:word_count], {
         \ 'line': 1,
-        \ 'col': 0,
+		\ 'col': winwidth(0),
         \ 'minwidth': 0,
         \ 'minheight': 1,
         \ 'zindex': 1000,
