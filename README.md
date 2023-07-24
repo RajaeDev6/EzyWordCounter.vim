@@ -1,7 +1,7 @@
-# WordCount.vim
+# EzyWordCounter.vim
 
 
-WordCount.vim is a Vim plugin that allows you to easily track and toggle word
+EzyWordCounter.vim is a Vim plugin that allows you to easily track and toggle word
 counts while writing essays or any other text in Vim. This plugin helps you
 keep track of the number of words you have typed in the current buffer and can
 be particularly useful when you have a specific word limit that you need to
@@ -19,11 +19,11 @@ reach.
 
 ## Installation
 
-Using a plugin manager is the recommended way to install WordCount.vim. 
+Using a plugin manager is the recommended way to install EzyWordCounter.vim. 
 If you are using vim-plug, add the following line to your vimrc:
 
 ```vim 
-Plug 'RajaeDev6/WordCount.vim' 
+Plug 'RajaeDev6/EzyWordCounter.vim' 
 ``` 
 Then, reload your Vim configuration and run :PlugInstall to install the plugin.
 
